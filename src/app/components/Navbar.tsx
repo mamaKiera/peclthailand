@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -9,7 +9,7 @@ import logo from "@public/pims-logo-full.png";
 const navigation = [
   { name: "认识太平洋学院", href: "/pims" },
   { name: "管理部门", href: "/team" },
-  { name: "学术单位", href: "#" },
+  { name: "学术单位", href: "/course" },
   { name: "我想读太平洋学院", href: "#" },
   { name: "校园采风", href: "#" },
   { name: "学历认证", href: "#" },
@@ -17,6 +17,7 @@ const navigation = [
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="absolute inset-x-0 top-0 z-50">
       <div

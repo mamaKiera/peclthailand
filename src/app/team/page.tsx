@@ -42,14 +42,17 @@ export default function Page() {
     <>
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl sm:text-center">
+          <div className="mx-auto max-w-2xl sm:text-center ">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               管理部门
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              一群在泰国高等教育领域拥有多年经验的专业人士
-            </p>
           </div>
+          <p className="mt-6 text-lg leading-8 text-gray-600 rounded-2xl bg-[#e5f2f2] gap-x-16 gap-y-8 p-8">
+            太平洋管理科学学院国际部由繁荣教育门主办，繁荣教育门象征着通过这个平台引领你走向成功之路，由泰籍华裔学者陈秋声博士创立，目的是促进泰中两国高等教育的交流与合作，为中国培养高等教育人才。
+            繁荣教育门的教育团队包括：核心管理人员、学校行政人员、及学术咨询委员。核心管理人员是繁荣教育门的创始人，主要是由陈秋声教授领导的一群热心教育的人士。学校行政人员负责项目的具体执行，包括国际部执行长、院长、学务长及其他常任人员等。学术咨询委员由繁荣教育门邀请的具有国际学术声望的学者组成，他们多数是学术期刊IEEE、SSCI、SCI、EI的编辑或审查人，为学院提供教学与研究的相关信息，作为办学的参考。
+            繁荣教育门的成员拥有丰富的泰国本土经验，因此能提供高质量的教学给来此学习的学生们。过去，繁荣教育门成员曾协助朱拉隆功大学、玛希隆大学、国王科技大学、清迈大学及宋卡王子大学举办国际学术研讨会，这些会议均被学术资料库EI与SCOPUS收录。繁荣教育门还帮助学校成立学术期刊，并在泰国高等教育科研的核心期刊资料库TCI中被收录。此外，还协助泰国农业大学设立研究中心，以及三所私立大学开展中国学生的国际学院项目。
+            在陈秋声博士的领导下，繁荣教育门将他们多年累积的经验贡献给太平洋管理科学学院国际部，相信能为本学院的中国留学生提供最优质的教育和学习服务。
+          </p>
           <ul
             role="list"
             className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-1 lg:max-w-4xl lg:gap-x-8 xl:max-w-none"
