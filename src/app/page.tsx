@@ -65,22 +65,22 @@ export default function Page() {
                     Pacific Institute of Management Science
                   </h2>
                   <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    太平洋管理科学学院与繁荣教育门有限公司合作(Prosper Edugate
-                    Co., Ltd.)，为您提供在泰国的高等教育最全面的学习体验。
+                    太平洋管理科学学院与繁荣教育门有限公司(PECL: Prosper Edugate
+                    Co., Ltd.)合作，为您提供在泰国的高等教育最全面的学习体验
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
-                    <a
+                    {/* <a
                       href="#"
                       className="rounded-md bg-pims-green px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-pims-green-light focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                     >
                       预约报名
                     </a>
                     <a
-                      href="#"
+                      href="/pims"
                       className="text-sm font-semibold leading-6 text-gray-900"
                     >
                       认识太平洋管理科学学院 <span aria-hidden="true">→</span>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

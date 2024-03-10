@@ -1,6 +1,7 @@
 import Image from "next/image";
 import presentation from "@public/presentation.jpg";
 import inClass from "@public/in-class.png";
+import pimsStudents from "@public/pims-students-learning.jpg";
 
 export default function Page() {
   return (
@@ -16,7 +17,7 @@ export default function Page() {
                 <p className="font-semibold ">
                   太平洋管理科学学院 哲学博士 教育管理方向
                 </p>
-                <p>Ph.D.Doctor of Philosophy in Educational Administration</p>
+                <p>Ph.D. Doctor of Philosophy in Educational Administration</p>
               </dt>
               <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                 <h2>教師(博导)</h2>
@@ -30,12 +31,12 @@ export default function Page() {
                 <p className="font-semibold ">
                   太平洋管理科学学院 藝術博士 音乐方向
                 </p>
-                <p>Doctor of Art in Musicology</p>
+                <p>Doctor of Arts in Musicology</p>
               </dt>
               <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                 <h2>教師(博导)</h2>
                 <li>吳昭蓉教授(民族音樂學)</li>
-                <li>林能杰教授(現代音樂)</li>
+                <li>林能杰教授(音樂教育)</li>
               </dd>
             </div>
             <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
@@ -43,7 +44,7 @@ export default function Page() {
                 <p className="font-semibold ">
                   太平洋管理科学学院 藝術博士 舞蹈方向
                 </p>
-                <p>Doctor of Art in Dancelogy</p>
+                <p>Doctor of Arts in Dancelogy</p>
               </dt>
               <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0"></dd>
             </div>
@@ -52,7 +53,7 @@ export default function Page() {
                 <p className="font-semibold ">
                   太平洋管理科学学院 藝術博士 美术 方向
                 </p>
-                <p>Doctor of Art in Fine Art</p>
+                <p>Doctor of Arts in Fine Art</p>
               </dt>
               <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                 <h2>教師(博导)</h2>
@@ -113,7 +114,7 @@ export default function Page() {
                 <p className="font-semibold ">
                   太洋管理科学学院 藝術硕士（音乐、舞蹈、美术）方向
                 </p>
-                <p>M.Art. Master of Art in Musicology、Dancelogy、Fine Arts</p>
+                <p>M.A. Master of Arts in Musicology、Dancelogy、Fine Art</p>
               </dt>
               <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                 <h2>教師(博导)</h2>
@@ -159,7 +160,7 @@ export default function Page() {
           <div>
             <Image
               className="h-auto max-w-full rounded-lg"
-              src={inClass}
+              src={pimsStudents}
               alt=""
             />
           </div>

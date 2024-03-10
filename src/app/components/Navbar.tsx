@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
@@ -10,9 +10,9 @@ const navigation = [
   { name: "认识太平洋学院", href: "/pims" },
   { name: "管理部门", href: "/team" },
   { name: "学术单位", href: "/course" },
-  { name: "我想读太平洋学院", href: "#" },
-  { name: "校园采风", href: "#" },
-  { name: "学历认证", href: "#" },
+  { name: "我想读太平洋学院", href: "/studywithus" },
+  { name: "校园采风", href: "/atmosphere" },
+  { name: "学历认证", href: "/certification" },
 ];
 
 export default function Navbar() {
