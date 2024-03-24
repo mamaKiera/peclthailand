@@ -1,6 +1,5 @@
 import Image from "next/image";
 import presentation from "@public/presentation.jpg";
-import inClass from "@public/in-class.png";
 import pimsStudents from "@public/pims-students-learning.jpg";
 
 export default function Page() {

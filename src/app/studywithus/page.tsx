@@ -1,6 +1,13 @@
 import Image from "next/image";
 import graduation from "@public/graduation.jpg";
 import phayao from "@public/phayao.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.peclthailand.com/"),
+  title: "PIMS International College| Study with Us",
+  description: "come study with us",
+};
 
 export default function Example() {
   const stats = [

@@ -8,6 +8,14 @@ import openCeremony from "@public/open-ceremony-2.jpg";
 import celebration from "@public/celebration.jpg";
 import presentation from "@public/presentation.jpg";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.peclthailand.com/"),
+  title: "Pacific Institute of Management Science International College| Home",
+  description: "PIMS International College Home Page",
+};
+
 export default function Page() {
   return (
     <div className="bg-white">

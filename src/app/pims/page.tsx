@@ -4,6 +4,13 @@ import newCampus from "@public/pims-nimitmai-campus.png";
 import Image from "next/image";
 import pimsManagement from "@public/pims-management.png";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.peclthailand.com/"),
+  title: "PIMS International College| About PIMS",
+  description: "About PIMS",
+};
 
 export default function Example() {
   return (

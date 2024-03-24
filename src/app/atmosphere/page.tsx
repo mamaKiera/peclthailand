@@ -23,11 +23,11 @@ import teaching from "@public/teaching.jpg";
 
 import { Metadata } from "next";
 
-// export const metadata: Metadata = {
-//   metadataBase: new URL("https://www.brightdentalstudiobkk.com/"),
-//   title: "Bright Dental Studio | Gallery",
-//   description: "Bright Dental Studio Gallery",
-// };
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.peclthailand.com/"),
+  title: "PIMS International College| Learning Atmosphere",
+  description: "Learning Atmosphere",
+};
 
 const Page = () => {
   return (

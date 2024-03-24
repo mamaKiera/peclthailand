@@ -4,6 +4,13 @@ import kieranna from "@public/kieranna.jpg";
 import chenShuZhong from "@public/chen-shu-zhong.jpg";
 import meng from "@public/meng-2.jpg";
 import pimspecl from "@public/pims-pecl.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.peclthailand.com/"),
+  title: "PIMS International College| PECL Team",
+  description: "Prosper Edugate Co., Ltd Team",
+};
 
 const people = [
   {

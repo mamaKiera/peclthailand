@@ -5,6 +5,13 @@ import cer2 from "@public/cer2.jpg";
 import cer3 from "@public/cer3.jpg";
 import cer4 from "@public/cer4.jpg";
 import cer5 from "@public/cer5.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.peclthailand.com/"),
+  title: "PIMS International College| Certification of PIMS",
+  description: "Certification of PIMS",
+};
 
 export default function Page() {
   return (
