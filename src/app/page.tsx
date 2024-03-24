@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 
 import jinpao1 from "@public/jinpao.jpg";
