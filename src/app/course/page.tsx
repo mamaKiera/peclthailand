@@ -106,15 +106,30 @@ export default function Page() {
                 <h2>教師(博导)</h2>
                 <li>盖思妮教授(教育行政) </li>
                 <li>韦娜妲教授(音乐教育、全人教育) </li>
-                <li>王茵琳教授(科学教育) </li>
               </dd>
             </div>
             <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太洋管理科学学院 藝術硕士（音乐、舞蹈、美术）方向
+                  太洋管理科学学院 艺术硕士 音乐方向
                 </p>
-                <p>M.A. Master of Arts in Musicology、Dancelogy、Fine Art</p>
+                <p>M.A. Master of Arts in Musicology</p>
+              </dt>
+            </div>
+            <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
+              <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
+                <p className="font-semibold ">
+                  太洋管理科学学院 艺术硕士 舞蹈方向
+                </p>
+                <p>M.A. Master of Arts in Dancelogy</p>
+              </dt>
+            </div>
+            <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
+              <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
+                <p className="font-semibold ">
+                  太洋管理科学学院 艺术硕士 美术方向
+                </p>
+                <p>M.A. Master of Arts in Fine Art</p>
               </dt>
               <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                 <h2>教師(博导)</h2>

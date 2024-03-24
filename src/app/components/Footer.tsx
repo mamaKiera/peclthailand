@@ -2,6 +2,7 @@ import Image from "next/image";
 import logo from "@public/pims-logo-full.png";
 import { MapPinIcon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/20/solid";
 import weChat from "@public/wechat.svg";
+import weChatQr from "@public/we-chat-meng.jpg";
 import Link from "next/link";
 
 const Footer = () => {
@@ -85,7 +86,7 @@ const Footer = () => {
                   hover:text-gray-300"
                 >
                   222/2 Moo 1，Phaholyothin Road,Ban Tam镇, Mueang Phayao区,
-                  Phayao省, 泰国 56000
+                  Phayao府, 泰国 56000
                 </p>
               </Link>
             </div>
@@ -144,16 +145,21 @@ const Footer = () => {
                 </p>
               </Link>
             </div>
+            <Image
+              className="mt-2 h-20 w-20 flex-none text-black"
+              src={weChatQr}
+              alt="weChat Icon"
+            />
             <div className="flex items-center mt-6 gap-2">
               <EnvelopeIcon className="mt-1 h-5 w-5 flex-none text-black" />
-              <Link href={"mailto: prosper.edugate@gmail.com"} target="_blank">
+              <Link href={"mailto: prosper@ipacific.ac.th"} target="_blank">
                 <p
                   className="text-sm
                   font-normal
                   text-black
                   hover:text-gray-300"
                 >
-                  prosper.edugate@gmail.com
+                  prosper@ipacific.ac.th
                 </p>
               </Link>
             </div>

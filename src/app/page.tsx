@@ -197,7 +197,7 @@ export default function Page() {
               <strong className="font-semibold text-gray-900">
                 在泰国同样有能力进行全英文或全中文授课的学校，以这里学费最便宜，
               </strong>
-              <p className="text-gray-700">CP值最高，请同学自行比较。</p>
+              <p className="text-gray-700">性价比最高，请同学自行比较。</p>
             </span>
           </li>
           <li className="flex gap-x-3">

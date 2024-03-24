@@ -2,17 +2,12 @@ import Image from "next/image";
 import chenQiuSheng from "@public/chen-qiu-sheng.jpg";
 import kieranna from "@public/kieranna.jpg";
 import chenShuZhong from "@public/chen-shu-zhong.jpg";
-import meng from "@public/meng.jpg";
+import meng from "@public/meng-2.jpg";
 import pimspecl from "@public/pims-pecl.jpg";
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid";
 
 const people = [
   {
-    name: "陈秋声博士",
+    name: "Dr. Chenin Chen (陈秋声博士)",
     role: "国际学院荣誉院长（国际事务领导）",
     imageUrl: chenQiuSheng,
     bio: "陈秋声博士副教授在美国佐治亚州大学獲得工商管理碩士学位，之后到加州的美国国际大学追隨战略管理之父伊格安索夫教授学習並獲得工商管理博士学位， 所以他的教学与研究領域著重於战略管理相關的主題如：国际商务， 金融，组织行為，创新，教育，与管理等。他參加的培訓有芬兰赫尔辛基工业大学中階管理課程，美国宾州大学华顿商学院高阶管理课程，泰国证券管理委员会上市公司董事培訓资格认证等。除了在太平洋管理科学学院任职外，同時也是泰国朱拉隆功大学科技创新创业哲学博士課程和文化管理艺术学碩士課程与国际商务管理学硕士课程教师，咨询委員，硕博论文导师与答辩审委，以及泰国皇室吉拉达皇宮科技学院，东方大学，皇太后大学等客座教授。他的經歷橫跨產学兩界，泰国与国际学术期刊编辑委員及审稿委员，国际学术研讨会主席，泰国教育部国际学校中文课程审批委员，曾任：大学校董及国际学院院長，泰国数家股票上市公司总裁及董事並成功地带领兩家公司股票上市，泰工商总会理事兼副主席，等等",
@@ -268,9 +263,22 @@ export default function Page() {
                     </p>
                     <span>
                       <strong className="font-semibold text-gray-900">
-                        Prof Colin Chen
+                        Prof. Colin Chen
                       </strong>
                       <p>SCI, EI, SCOPUS期刊主编，中国科学院博导</p>
+                    </span>
+                  </li>
+                  <li className="flex gap-x-3">
+                    <p className="mt-1 h-5 w-5 flex-none text-pims-green text-bold">
+                      13
+                    </p>
+                    <span>
+                      <strong className="font-semibold text-gray-900">
+                        Prof. Lynn Wang
+                      </strong>
+                      <p>
+                        卓越的青年学者，其杰出科研论文成果见诸Q1区頂尖学术期刊
+                      </p>
                     </span>
                   </li>
                 </ul>
