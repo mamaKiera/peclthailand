@@ -7,10 +7,10 @@ import Image from "next/image";
 import logo from "@public/pims-logo-full.png";
 
 const navigation = [
-  { name: "认识太平洋学院", href: "/pims" },
+  { name: "认识太平洋管理科学大学", href: "/pims" },
   { name: "管理部门", href: "/team" },
   { name: "学术单位", href: "/course" },
-  { name: "我想读太平洋学院", href: "/studywithus" },
+  { name: "我想读太平洋管理科学大学", href: "/studywithus" },
   { name: "校园采风", href: "/atmosphere" },
   { name: "学历认证", href: "/certification" },
 ];

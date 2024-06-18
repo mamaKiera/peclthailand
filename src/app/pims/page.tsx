@@ -8,7 +8,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.peclthailand.com/"),
-  title: "PIMS International College| About PIMS",
+  title: "PIMS International College - About PIMS",
   description: "About PIMS",
 };
 
@@ -17,14 +17,14 @@ export default function Example() {
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          认识太平洋管理科学学院
+          认识太平洋管理科学大学
         </h1>
         <p className="mt-6 text-xl leading-8">
           About Pacific Institute of Management Science (P.I.M.S.)
         </p>
         <div className="mt-10 max-w-3xl">
           <p>
-            太平洋管理科学学院是泰国的一所民办教育机构。它位于泰国Phayao府
+            太平洋管理科学大学是泰国的一所民办教育机构。它位于泰国Phayao府
             Mueang Phayao区的Ban Tam镇，地址为222/2 Moo 1，Phaholyothin
             Road，靠近清迈。学院成立于2014年6月19日，是Phayao府的第一所民办教育机构。该学院获得认可，可以颁发本科、硕士和博士学位，由泰国高等教育委员会办公室、高等教育、科学、研究和创新部承认。学院致力于培养管理方面的毕业生，整合理论知识和各个学科领域的管理技能。其目标是为社会的文化和智力发展做出贡献，强调在所有学科中既要有理论理解，又要有实际管理技能。这使得毕业生能够进入职场，在学术、公共、商业和工业领域广受认可。
           </p>
@@ -85,7 +85,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 工商管理学士
+                  太平洋管理科学大学 工商管理学士
                 </strong>
                 <p>Bachelor of Business Administration</p>
               </span>
@@ -133,7 +133,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 教育管理硕士
+                  太平洋管理科学大学 教育管理硕士
                 </strong>
                 <p>M.Ed. Master of Education (Educational Administration)</p>
               </span>
@@ -144,7 +144,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 藝術硕士
+                  太平洋管理科学大学 藝術硕士
                 </strong>
                 <p>M.A. Master of Arts in Musicology、Dancelogy、Fine Arts</p>
               </span>
@@ -155,7 +155,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 工商管理硕士 信息技术管理方向
+                  太平洋管理科学大学 工商管理硕士 信息技术管理方向
                 </strong>
                 <p>
                   MBA Master of Buiness Administration in Information Technology
@@ -169,7 +169,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 工商管理硕士
+                  太平洋管理科学大学 工商管理硕士
                 </strong>
                 <p>MBA Master of Business Administration</p>
               </span>
@@ -180,7 +180,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 工商管理硕士
+                  太平洋管理科学大学 工商管理硕士
                 </strong>
                 <p>MBA Master of Business Administration</p>
               </span>
@@ -203,7 +203,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 哲学博士 教育管理方向
+                  太平洋管理科学大学 哲学博士 教育管理方向
                 </strong>
                 <p>Ph.D. Doctor of Philosophy in Educational Administration</p>
               </span>
@@ -225,7 +225,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 哲学博士 信息技术管理方向
+                  太平洋管理科学大学 哲学博士 信息技术管理方向
                 </strong>
                 <p>
                   Ph.D. Doctor of Philosophy in Information Technology
@@ -239,7 +239,7 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太平洋管理科学学院 哲学博士 组织管理与发展 方向
+                  太平洋管理科学大学 哲学博士 组织管理与发展 方向
                 </strong>
                 <p>
                   Ph.D. Doctor of Philosophy in Organization Management and

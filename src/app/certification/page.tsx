@@ -9,7 +9,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.peclthailand.com/"),
-  title: "PIMS International College| Certification of PIMS",
+  title: "PIMS International College - Certification",
   description: "Certification of PIMS",
 };
 
@@ -66,7 +66,7 @@ export default function Page() {
             <p className=" text-lg leading-8 text-gray-800 ">说明：</p>
             <p>
               {" "}
-              1.“海洋管理科技学院”为错误的翻译，正确的名称为“太平洋管理科学学院”，本校已经去函请求更正。
+              1.“海洋管理科技学院”为错误的翻译，正确的名称为“太平洋管理科学大学”，本校已经去函请求更正。
             </p>
             <p>
               {" "}
@@ -96,7 +96,7 @@ export default function Page() {
               {" "}
               http://www.jsj.edu.cn/n1/12048.shtml
             </span>
-            <p>(下表的数据中，太平洋管理科学学院位于第73个。 )</p>
+            <p>(下表的数据中，太平洋管理科学大学位于第73个。 )</p>
           </div>
         </div>
       </div>

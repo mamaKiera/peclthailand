@@ -27,7 +27,7 @@ const Footer = () => {
                 href={"/pims"}
                 className="text-ml font-semibold leading-6 text-black hover:text-gray-300"
               >
-                认识太平洋管理科学学院
+                认识太平洋管理科学大学
               </Link>
             </li>
             <li key="team">
@@ -51,7 +51,7 @@ const Footer = () => {
                 href={"/studywithus"}
                 className="text-ml font-semibold leading-6 text-black hover:text-gray-300"
               >
-                我想读太平洋学院
+                我想读太平洋管理科学大学
               </Link>
             </li>
             <li key="atmosphere">

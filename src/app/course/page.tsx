@@ -1,6 +1,13 @@
 import Image from "next/image";
 import presentation from "@public/presentation.jpg";
 import pimsStudents from "@public/pims-students-learning.jpg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://www.peclthailand.com/"),
+  title: "PIMS International College - Courses",
+  description: "courses",
+};
 
 export default function Page() {
   return (
@@ -14,7 +21,7 @@ export default function Page() {
             <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 哲学博士 教育管理方向
+                  太平洋管理科学大学 哲学博士 教育管理方向
                 </p>
                 <p>Ph.D. Doctor of Philosophy in Educational Administration</p>
               </dt>
@@ -28,7 +35,7 @@ export default function Page() {
             <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 藝術博士 音乐方向
+                  太平洋管理科学大学 藝術博士 音乐方向
                 </p>
                 <p>Doctor of Arts in Musicology</p>
               </dt>
@@ -41,16 +48,20 @@ export default function Page() {
             <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 藝術博士 舞蹈方向
+                  太平洋管理科学大学 藝術博士 舞蹈方向
                 </p>
                 <p>Doctor of Arts in Dancelogy</p>
               </dt>
+              <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                <h2>教師(博导)</h2>
+                <li>赵阳</li>
+              </dd>
               <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0"></dd>
             </div>
             <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 藝術博士 美术 方向
+                  太平洋管理科学大学 藝術博士 美术 方向
                 </p>
                 <p>Doctor of Arts in Fine Art</p>
               </dt>
@@ -62,7 +73,7 @@ export default function Page() {
             <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 哲学博士 信息技术管理方向
+                  太平洋管理科学大学 哲学博士 信息技术管理方向
                 </p>
                 <p>
                   Ph.D. Doctor of Philosophy in Information Technology
@@ -79,7 +90,7 @@ export default function Page() {
             <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 哲学博士 组织管理与发展 方向
+                  太平洋管理科学大学 哲学博士 组织管理与发展 方向
                 </p>
                 <p>
                   Ph.D. Doctor of Philosophy in Organization Management and
@@ -97,7 +108,7 @@ export default function Page() {
             <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 教育管理硕士
+                  太平洋管理科学大学 教育管理硕士
                 </p>
                 <p>M.Ed. Master of Education (Educational Administration)</p>
               </dt>
@@ -139,7 +150,7 @@ export default function Page() {
             <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 工商管理硕士
+                  太平洋管理科学大学 工商管理硕士
                 </p>
                 <p>MBA Master of Business Administration </p>
               </dt>
@@ -154,7 +165,7 @@ export default function Page() {
             <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学学院 工商管理硕士 信息技术管理方向
+                  太平洋管理科学大学 工商管理硕士 信息技术管理方向
                 </p>
                 <p>
                   MBA Master of Buiness Administration in Information Technology

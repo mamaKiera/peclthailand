@@ -25,7 +25,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.peclthailand.com/"),
-  title: "PIMS International College| Learning Atmosphere",
+  title: "PIMS International College - Learning Atmosphere",
   description: "Learning Atmosphere",
 };
 

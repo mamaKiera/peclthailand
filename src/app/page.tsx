@@ -10,7 +10,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.peclthailand.com/"),
-  title: "Pacific Institute of Management Science International College| Home",
+  title: "PIMS International College - Home",
   description: "PIMS International College Home Page",
 };
 
@@ -189,7 +189,7 @@ export default function Page() {
             />
             <span>
               <strong className="font-semibold text-gray-900">
-                我们的老师都以可使用全英文或全中文授课。不是他校使用英文或泰语授课，由助教来翻译，不但浪费时间，
+                我们的老师都可以使用全英文或全中文授课。不是他校使用英文或泰语授课，由助教来翻译，不但浪费时间，
               </strong>
               <p className="text-gray-700">而且翻译的正确度及完整度皆不佳。</p>
             </span>
