@@ -1,10 +1,9 @@
 import { Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.peclthailand.com/"),
   title: "PIMS International College - Courses",
-  description: "courses",
+  description: "newsletter",
 };
 
 const newsletters = [
