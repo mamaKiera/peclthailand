@@ -65,13 +65,13 @@ export default function Page() {
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                   <h1 className="text-5xl font-bold  text-gray-900 sm:text-6xl">
-                    太平洋管理科学学院
+                    太平洋管理科学大学
                   </h1>
                   <h2 className="text-3xl font-semibold  text-gray-800 sm:text-4xl">
                     Pacific Institute of Management Science
                   </h2>
                   <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    太平洋管理科学学院与繁荣教育门有限公司(PECL: Prosper Edugate
+                    太平洋管理科学大学与繁荣教育门有限公司(PECL: Prosper Edugate
                     Co., Ltd.)合作，为您提供在泰国的高等教育最全面的学习体验
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
@@ -85,7 +85,7 @@ export default function Page() {
                       href="/pims"
                       className="text-sm font-semibold leading-6 text-gray-900"
                     >
-                      认识太平洋管理科学学院 <span aria-hidden="true">→</span>
+                      认识太平洋管理科学大学 <span aria-hidden="true">→</span>
                     </a> */}
                   </div>
                 </div>
@@ -144,7 +144,7 @@ export default function Page() {
       </main>
       <div className="mx-auto max-w-7xl px-6 pb-48 lg:px-8">
         <h1 className="mt-8 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-          PIMS/PECL太平洋管理科学学院的竞争优势:
+          PIMS/PECL太平洋管理科学大学的竞争优势:
         </h1>
         <p className="mt-6 text-xl leading-8">
           Competitive Advantages of PIMS and PECL:
