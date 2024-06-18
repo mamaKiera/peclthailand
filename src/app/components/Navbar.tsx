@@ -13,6 +13,7 @@ const navigation = [
   { name: "我想读太平洋管理科学大学", href: "/studywithus" },
   { name: "校园采风", href: "/atmosphere" },
   { name: "学历认证", href: "/certification" },
+  { name: "新闻简报", href: "/newsletter" },
 ];
 
 export default function Navbar() {
@@ -42,7 +43,7 @@ export default function Navbar() {
             ) : null}
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:gap-x-6">
           {navigation.map((item) => (
             <a
               key={item.name}
@@ -83,7 +84,7 @@ export default function Navbar() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className="-mx-3 block rounded-lg px-2 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
                   </a>

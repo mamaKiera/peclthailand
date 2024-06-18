@@ -70,6 +70,14 @@ const Footer = () => {
                 学历认证
               </Link>
             </li>
+            <li key="certification">
+              <Link
+                href={"/newsletter"}
+                className="text-ml font-semibold leading-6 text-black hover:text-gray-300"
+              >
+                新闻简报
+              </Link>
+            </li>
           </ul>
 
           <div className="mt-4 md:mt-0">
