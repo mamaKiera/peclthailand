@@ -138,20 +138,10 @@ export default function Example() {
                 <p>M.Ed. Master of Education (Educational Administration)</p>
               </span>
             </li>
+
             <li className="flex gap-x-3">
               <p className="mt-1 h-5 w-5 flex-none text-pecl-gold font-semibold">
                 2
-              </p>
-              <span>
-                <strong className="font-semibold text-gray-900">
-                  太平洋管理科学大学 藝術硕士
-                </strong>
-                <p>M.A. Master of Arts in Musicology、Dancelogy、Fine Arts</p>
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <p className="mt-1 h-5 w-5 flex-none text-pecl-gold font-semibold">
-                3
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
@@ -165,29 +155,18 @@ export default function Example() {
             </li>
             <li className="flex gap-x-3">
               <p className="mt-1 h-5 w-5 flex-none text-pecl-gold font-semibold">
+                3
+              </p>
+              <span>
+                <strong className="font-semibold text-gray-900">
+                  太平洋管理科学大学 工商管理硕士
+                </strong>
+                <p>MBA Master of Business Administration</p>
+              </span>
+            </li>
+            <li className="flex gap-x-3">
+              <p className="mt-1 h-5 w-5 flex-none text-pecl-gold font-semibold">
                 4
-              </p>
-              <span>
-                <strong className="font-semibold text-gray-900">
-                  太平洋管理科学大学 工商管理硕士
-                </strong>
-                <p>MBA Master of Business Administration</p>
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <p className="mt-1 h-5 w-5 flex-none text-pecl-gold font-semibold">
-                5
-              </p>
-              <span>
-                <strong className="font-semibold text-gray-900">
-                  太平洋管理科学大学 工商管理硕士
-                </strong>
-                <p>MBA Master of Business Administration</p>
-              </span>
-            </li>
-            <li className="flex gap-x-3">
-              <p className="mt-1 h-5 w-5 flex-none text-pecl-gold font-semibold">
-                6
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
@@ -214,9 +193,12 @@ export default function Example() {
               </p>
               <span>
                 <strong className="font-semibold text-gray-900">
-                  太洋管理科学学院 藝術博士 （音乐、舞蹈、美术）方向
+                  太平洋管理科学大学 哲学博士 创意企业艺术管理方向
                 </strong>
-                <p>Doctor of Arts in Musicology, Dancology, and Fineart</p>
+                <p>
+                  Ph.D. Doctor of Philosophy in Arts Management for Creative
+                  Industries
+                </p>
               </span>
             </li>
             <li className="flex gap-x-3">

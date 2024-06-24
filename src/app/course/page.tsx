@@ -35,41 +35,24 @@ export default function Page() {
             <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太平洋管理科学大学 藝術博士 音乐方向
+                  太平洋管理科学大学 哲学博士 创意企业艺术管理方向
                 </p>
-                <p>Doctor of Arts in Musicology</p>
+                <p>
+                  Ph.D. Doctor of Philosophy in Arts Management for Creative
+                  Industries
+                </p>
               </dt>
               <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                 <h2>教師(博导)</h2>
                 <li>吳昭蓉教授(民族音樂學)</li>
                 <li>林能杰教授(音樂教育)</li>
-              </dd>
-            </div>
-            <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
-              <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
-                <p className="font-semibold ">
-                  太平洋管理科学大学 藝術博士 舞蹈方向
-                </p>
-                <p>Doctor of Arts in Dancelogy</p>
-              </dt>
-              <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                <h2>教師(博导)</h2>
-                <li>赵阳</li>
-              </dd>
-              <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0"></dd>
-            </div>
-            <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
-              <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
-                <p className="font-semibold ">
-                  太平洋管理科学大学 藝術博士 美术 方向
-                </p>
-                <p>Doctor of Arts in Fine Art</p>
-              </dt>
-              <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                <h2>教師(博导)</h2>
+                <li>赵阳(舞蹈学)</li>
                 <li>陈维教授(美学理论)</li>
+                <li>孟昭栋教授(文化创新)</li>
+                <li>陈建安教授(环境美学)</li>
               </dd>
             </div>
+
             <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
@@ -121,35 +104,6 @@ export default function Page() {
             <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
-                  太洋管理科学学院 艺术硕士 音乐方向
-                </p>
-                <p>M.A. Master of Arts in Musicology</p>
-              </dt>
-            </div>
-            <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
-              <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
-                <p className="font-semibold ">
-                  太洋管理科学学院 艺术硕士 舞蹈方向
-                </p>
-                <p>M.A. Master of Arts in Dancelogy</p>
-              </dt>
-            </div>
-            <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
-              <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
-                <p className="font-semibold ">
-                  太洋管理科学学院 艺术硕士 美术方向
-                </p>
-                <p>M.A. Master of Arts in Fine Art</p>
-              </dt>
-              <dd className="mt-1 text-lg leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                <h2>教師(博导)</h2>
-                <li>孟昭栋教授(文化创新)</li>
-                <li>陈建安教授(环境美学)</li>
-              </dd>
-            </div>
-            <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
-              <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
-                <p className="font-semibold ">
                   太平洋管理科学大学 工商管理硕士
                 </p>
                 <p>MBA Master of Business Administration </p>
@@ -162,7 +116,7 @@ export default function Page() {
                 <li>林鉌翔教授(创业管理) </li>
               </dd>
             </div>
-            <div className="bg-white px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
+            <div className="bg-[#d8ebeb] px-4 py-6 sm:grid sm:grid-cols-5 sm:gap-4 sm:px-3">
               <dt className="text-lg leading-6 text-gray-900 sm:col-span-3">
                 <p className="font-semibold ">
                   太平洋管理科学大学 工商管理硕士 信息技术管理方向

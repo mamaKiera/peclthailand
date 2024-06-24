@@ -161,11 +161,9 @@ export default function Page() {
             <span>
               <strong className="font-semibold text-gray-900">
                 优秀的充满教学热忱与爱心的师资团队，全程照顾学生，从上课到论文科研的指导到文章的发表，
-              </strong>
-              <p className="text-gray-700">
                 因为我们的老师是T C I., S C O P U S, S S C
                 I等多本期刊的编辑和审稿者。
-              </p>
+              </strong>
             </span>
           </li>
           <li className="flex gap-x-3">
@@ -175,11 +173,8 @@ export default function Page() {
             />
             <span>
               <strong className="font-semibold text-gray-900">
-                教学时间安排灵活，有全日班，寒暑假集中授课斑和特别班，特别班为只要凑足五个以上的博士班学生或十个以上的硕士班学生，
+                教学时间安排灵活，有全日班，寒暑假集中授课斑和特别班，特别班为只要凑足五个以上的博士班学生或十个以上的硕士班学生，任何时刻有空来泰国即安排老师授课。
               </strong>
-              <p className="text-gray-700">
-                任何时刻有空来泰国即安排老师授课。
-              </p>
             </span>
           </li>
           <li className="flex gap-x-3">
@@ -189,9 +184,8 @@ export default function Page() {
             />
             <span>
               <strong className="font-semibold text-gray-900">
-                我们的老师都可以使用全英文或全中文授课。不是他校使用英文或泰语授课，由助教来翻译，不但浪费时间，
+                我们的老师都可以使用全英文或全中文授课。不是他校使用英文或泰语授课，由助教来翻译，不但浪费时间，而且翻译的正确度及完整度皆不佳。
               </strong>
-              <p className="text-gray-700">而且翻译的正确度及完整度皆不佳。</p>
             </span>
           </li>
           <li className="flex gap-x-3">
@@ -201,9 +195,8 @@ export default function Page() {
             />
             <span>
               <strong className="font-semibold text-gray-900">
-                在泰国同样有能力进行全英文或全中文授课的学校，以这里学费最便宜，
+                在泰国同样有能力进行全英文或全中文授课的学校，以这里学费最便宜，性价比最高，请同学自行比较。
               </strong>
-              <p className="text-gray-700">性价比最高，请同学自行比较。</p>
             </span>
           </li>
           <li className="flex gap-x-3">
@@ -216,11 +209,9 @@ export default function Page() {
                 因材施教，有教无类。达到泰国高教部要求即毕业，不另设门坎。硕士独立研究报告要求合理，博士在T
                 C I二级发表，不对学生做过份要求(如一定要S C O P U S或T C
                 I第一级的期刊发表)。而如有学生想在S S C I期刊发表，
-              </strong>
-              <p className="text-gray-700">
                 我们的老师都有能力辅导学生直接投稿，不需再花昂贵的投稿仲
                 介费用。
-              </p>
+              </strong>
             </span>
           </li>
           <li className="flex gap-x-3">
@@ -230,11 +221,8 @@ export default function Page() {
             />
             <span>
               <strong className="font-semibold text-gray-900">
-                毕业时间快速，只要努力学习，二年学制的硕士班可以在一年半三个学期的时间完成。三年学程的博士班可以在两年半五个学期完成。
+                毕业时间快速，只要努力学习，二年学制的硕士班可以在一年半三个学期的时间完成。三年学程的博士班可以在两年半五个学期完成。本校另设有特制的硕博连读班，硕博連读课程，在两年期间修完所有应修科目，並在两年之內完成两本论文刊登两篇文章即可毕业。
               </strong>
-              <p className="text-gray-700">
-                本校另设有特制的硕博连读班，可在三年六个学期毕业。
-              </p>
             </span>
           </li>
         </ul>

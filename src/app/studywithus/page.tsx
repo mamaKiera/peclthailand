@@ -1,6 +1,7 @@
 import Image from "next/image";
 import graduation from "@public/graduation.jpg";
 import phayao from "@public/phayao.jpg";
+import contact from "@public/contacts.png";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,7 +21,20 @@ export default function Example() {
 
   return (
     <>
-      <section className="bg-white pb-8 pt-24 sm:pb-24 sm:pt-48 xl:pb-8">
+      <div className="bg-white pb-8 pt-24 sm:pb-24 sm:pt-48 xl:pb-8">
+        <h1 className="mt-2 mb-4 text-3xl font-bold text-center tracking-tight text-gray-900 sm:text-4xl">
+          太平洋管理科学大学招生服务与校企合作办事处
+        </h1>
+        {/* image section */}
+        <div className="mx-auto my-20 max-w-7xl pb-8 lg:pb-10">
+          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+            <div className="flex justify-center max-w-xl  gap-8 text-base leading-7 text-gray-300 lg:max-w-none ">
+              <div>
+                <Image src={contact} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="bg-pims-green pb-20 sm:pb-24 xl:pb-0">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
             <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
@@ -56,7 +70,7 @@ export default function Example() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <section className="bg-white pb-16 sm:pb-24 sm:pt-32 xl:pb-32">
         <div className=" pb-20 sm:pb-24 xl:pb-0">
           <div className="mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
